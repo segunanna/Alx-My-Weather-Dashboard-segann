@@ -28,10 +28,9 @@ API:[OpenWeather API](https://openweathermap.org/api)
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Kendiva52/My-Weather-Dashboard.git
-
+git clone https://github.com/segunanna/Alx-My-Weather-Dashboard-segann.git
 # 2. Navigate into the project directory
-cd My-Weather-Dashboard
+cd Alx-My-Weather-Dashboard-segann
 
 # 3. Install dependencies
 npm install
