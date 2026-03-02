@@ -1,16 +1,52 @@
-# React + Vite
+# My Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather application built with React.js, Vite, Tailwind CSS, and the OpenWeather API. It allows users to search for any city and instantly view real-time weather conditions, with a clean and intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+City Search – Get instant weather details for any city worldwide.  
+Unit Toggle – Switch between °C and °F effortlessly.  
+Geolocation Support– Automatically detect and display your local weather.  
+Real-Time Updates – Always see the latest weather data.  
+saved Searches– Your recent searches are stored locally for quick access.  
+Fully Responsive – Works beautifully on desktop, tablet, and mobile devices.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend Framework:[React](https://react.dev/) (via [Vite](https://vitejs.dev/))
+Styling: [Tailwind CSS v3](https://tailwindcss.com/)
+API:[OpenWeather API](https://openweathermap.org/api)
+- **Package Manager:** npm
+
+---
+
+## Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Kendiva52/My-Weather-Dashboard.git
+
+# 2. Navigate into the project directory
+cd My-Weather-Dashboard
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+Future Improvements
+
+Add user location-based weather using Geolocation API
+
+Display interactive charts for temperature trends
+
+Author
+
+Anna Okorodudu Segun
+
+Frontend Developer
