@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col items-center px-6 py-12"
-      style={{ backgroundImage: "url('/image/weather-bg.jpg')" }}
+      style={{ backgroundImage: "url('/image/clouds.jpg')" }}
     >
        <div className="bg-white bg-opacity-90 rounded-2xl shadow-lg p-8 w-full mt-24 max-w-3xl">
       {/* Title */}

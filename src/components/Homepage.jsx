@@ -83,7 +83,7 @@ export default function Homepage() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col items-center"
-      style={{ backgroundImage: "url('/image/weather-bg.jpg')" }}
+      style={{ backgroundImage: "url('/image/clouds.jpg')" }}
     >
       <Navbar />
 
