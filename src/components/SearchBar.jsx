@@ -25,7 +25,7 @@ export default function SearchBar({ onSearch }) {
       />
       <button
         type="submit"
-        className="px-5 py-2.5 bg-blue-500 text-white font-medium rounded-r-lg hover:bg-blue-600 transition"
+        className="px-5 py-2.5 bg-green-500 text-white font-medium rounded-r-lg hover:bg-blue-600 transition"
       >
         Search
       </button>

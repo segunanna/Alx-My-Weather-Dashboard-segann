@@ -4,10 +4,10 @@ export default function Forecast({ forecastData }) {
   if (!forecastData || forecastData.length === 0) {
     return null; 
   }
-
+  
   return (
     <div className="mt-8 p-4 bg-white shadow-lg rounded-2xl">
-      <h2 className="text-2xl font-semibold text-blue-500 mb-4 text-center">
+      <h2 className="text-2xl font-semibold text-green-800 mb-4 text-center">
         5-Day Forecast
       </h2>
 

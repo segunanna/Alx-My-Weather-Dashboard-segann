@@ -42,9 +42,9 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden px-10 py-2 space-y-2 text-right bg-white/5 backdrop-blur-sm rounded-b-xl shadow">
-          <Link to="/" onClick={() => handleLinkClick("/")} className="block text-gray-800 hover:text-blue-600 transition">Home</Link>
-          <Link to="/about" onClick={() => handleLinkClick("/about")} className="block text-gray-800 hover:text-blue-600 transition">About</Link>
-          <Link to="/contact" onClick={() => handleLinkClick("/contact")} className="block text-gray-800 hover:text-blue-600 transition">Contact</Link>
+          <Link to="/" onClick={() => handleLinkClick("/")} className="block text-gray-800 hover:text-green-600 transition">Home</Link>
+          <Link to="/about" onClick={() => handleLinkClick("/about")} className="block text-gray-800 hover:text-green-600 transition">About</Link>
+          <Link to="/contact" onClick={() => handleLinkClick("/contact")} className="block text-gray-800 hover:text-green-600 transition">Contact</Link>
         </div>
       )}
     </nav>

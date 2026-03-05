@@ -3,7 +3,7 @@ import { useState, useEffect }from "react"
 export default function SavedCities({ cities, onSearch, onRemove }) {
   return (
     <div className="p-4 bg-white shadow-md rounded-lg mt-6">
-      <h2 className="text-xl font-semibold mb-3 text-blue-600">Saved Cities</h2>
+      <h2 className="text-xl font-semibold mb-3 text-green-600">Saved Cities</h2>
 
       {cities.length === 0 ? (
         <p className="text-gray-500">No cities saved yet.</p>

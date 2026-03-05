@@ -89,7 +89,7 @@ export default function Homepage() {
 
       {/* Card container */}
       <div className="bg-white bg-opacity-80 rounded-2xl shadow-lg p-6 mt-40 w-full max-w-sm sm:max-w-md text-center">
-        <h1 className="text-2xl font-bold text-blue-600 mb-4">Weather Dashboard</h1>
+        <h1 className="text-2xl font-bold text-green-600 mb-4">Weather Dashboard</h1>
         <p className="text-sm sm:text-base mb-4">Search for the current weather in any city worldwide.</p>
 
         <SearchBar onSearch={fetchWeather} />
@@ -106,7 +106,7 @@ export default function Homepage() {
           <WeatherCard weatherData={weather} />
           <button
             onClick={() => addcity(weather.name)}
-            className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="mt-4 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
           >
            Save City
           </button>

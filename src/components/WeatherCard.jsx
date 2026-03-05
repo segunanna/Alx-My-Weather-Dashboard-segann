@@ -10,10 +10,11 @@ function WeatherCard({ weatherData }) {
   const description = weather[0].description;
   const iconCode = weather[0].icon;
   const iconSrc = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+  
 
   return (
     <div className="bg-white/90 rounded-2xl shadow-xl p-6 mt-6 w-80 text-center">
-      <h2 className="text-2xl text-blue-400 font-bold mb-2">{name}</h2>
+      <h2 className="text-2xl text-green-800 font-bold mb-2">{name}</h2>
       <img src={iconSrc} alt={condition} className="mx-auto my-4 w-20 h-20" />
       <p className="text-xl capitalize">{description}</p>
       <p className="text-4xl font-bold mt-2">{Math.round(main.temp)}°C</p>
